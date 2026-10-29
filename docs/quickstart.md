@@ -20,7 +20,7 @@ YAML 订阅另需 `python3-yaml`；JSON 不需该可选包。缺少系统软件�
 
 ```bash
 git clone https://github.com/zrj-cn/ai-proxy-public.git
-cd ai-proxy
+cd ai-proxy-public
 ./install.sh --check
 ```
 

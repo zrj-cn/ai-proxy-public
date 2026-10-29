@@ -21,7 +21,7 @@
 
 ```bash
 git clone https://github.com/zrj-cn/ai-proxy-public.git
-cd ai-proxy
+cd ai-proxy-public
 ./install.sh --check
 ./install.sh
 ~/.local/bin/ai-proxy
