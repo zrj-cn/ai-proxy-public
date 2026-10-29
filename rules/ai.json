@@ -1,0 +1,104 @@
+[
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "openai.com",
+    "action": "CHAIN",
+    "source": "OpenAI"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "chatgpt.com",
+    "action": "CHAIN",
+    "source": "OpenAI"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "oaistatic.com",
+    "action": "CHAIN",
+    "source": "OpenAI assets"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "oaiusercontent.com",
+    "action": "CHAIN",
+    "source": "OpenAI attachments"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "anthropic.com",
+    "action": "CHAIN",
+    "source": "Claude official network docs"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "claude.ai",
+    "action": "CHAIN",
+    "source": "Claude official network docs"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "claude.com",
+    "action": "CHAIN",
+    "source": "Claude official network docs"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "claudeusercontent.com",
+    "action": "CHAIN",
+    "source": "Claude official network docs"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "claudemcpcontent.com",
+    "action": "CHAIN",
+    "source": "Claude Desktop widgets"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "http-intake.logs.us5.datadoghq.com",
+    "action": "CHAIN",
+    "source": "Claude official optional telemetry"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "browser-intake-us5-datadoghq.com",
+    "action": "CHAIN",
+    "source": "Claude official optional error reporting"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "clau.de",
+    "action": "CHAIN",
+    "source": "Claude 专用短域名；2026-10-17 实测 HTTPS 重定向至 claude.com"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "claudemcpclient.com",
+    "action": "CHAIN",
+    "source": "Claude MCP 专用域名；Net.Coffee 线索，应用用途未独立验证"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "anthropic.auth0.com",
+    "action": "CHAIN",
+    "source": "Claude 历史认证主机；Net.Coffee 线索"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "anthropic.com.cdn.cloudflare.net",
+    "action": "CHAIN",
+    "source": "Claude 专用 CDN 主机；Net.Coffee 线索"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "servd-anthropic-website.b-cdn.net",
+    "action": "CHAIN",
+    "source": "Claude 官网 CDN 主机；Net.Coffee 线索"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "anthropic-com.ghost.io",
+    "action": "CHAIN",
+    "source": "Claude 内容主机；Net.Coffee 线索"
+  }
+]

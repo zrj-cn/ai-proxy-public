@@ -1,0 +1,20 @@
+[
+  {
+    "type": "DOMAIN",
+    "value": "registry.npmjs.org",
+    "action": "DIRECT",
+    "source": "optional development"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "docker.io",
+    "action": "DIRECT",
+    "source": "optional development"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "production.cloudflare.docker.com",
+    "action": "DIRECT",
+    "source": "optional development"
+  }
+]

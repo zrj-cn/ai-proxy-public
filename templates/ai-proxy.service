@@ -1,0 +1,15 @@
+[Unit]
+Description=Authenticated AI proxy (mihomo; user scope)
+After=network-online.target
+[Service]
+ExecStart=@BINARY@ -d @STATE@ -f @CONFIG@
+Restart=on-failure
+RestartSec=3
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+RestrictAddressFamilies=AF_UNIX AF_INET AF_INET6
+StandardOutput=null
+StandardError=null
+[Install]
+WantedBy=default.target

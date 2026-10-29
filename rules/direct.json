@@ -1,0 +1,128 @@
+[
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "github.com",
+    "action": "DIRECT",
+    "source": "GitHub web/git/releases"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "githubusercontent.com",
+    "action": "DIRECT",
+    "source": "GitHub raw/objects/releases/LFS"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "githubassets.com",
+    "action": "DIRECT",
+    "source": "GitHub assets"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "github.io",
+    "action": "DIRECT",
+    "source": "GitHub pages"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "github-cloud.s3.amazonaws.com",
+    "action": "DIRECT",
+    "source": "GitHub legacy LFS"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "github-production-repository-file-5c1aeb.s3.amazonaws.com",
+    "action": "DIRECT",
+    "source": "GitHub legacy repository attachments"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "huggingface.co",
+    "action": "DIRECT",
+    "source": "HF Hub"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "hf.co",
+    "action": "DIRECT",
+    "source": "HF Hub short domain"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "xethub.hf.co",
+    "action": "DIRECT",
+    "source": "HF Xet CAS/bridge/transfer"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "cdn-lfs.huggingface.co",
+    "action": "DIRECT",
+    "source": "HF legacy LFS"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "cdn-lfs-us-1.hf.co",
+    "action": "DIRECT",
+    "source": "HF legacy LFS US"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "cdn-lfs-eu-1.hf.co",
+    "action": "DIRECT",
+    "source": "HF legacy LFS EU"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "pypi.org",
+    "action": "DIRECT",
+    "source": "PyPI package index"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "pythonhosted.org",
+    "action": "DIRECT",
+    "source": "PyPI package files"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "pypi.python.org",
+    "action": "DIRECT",
+    "source": "PyPI legacy index redirect"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "bootstrap.pypa.io",
+    "action": "DIRECT",
+    "source": "pip bootstrap downloads"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "download.pytorch.org",
+    "action": "DIRECT",
+    "source": "PyTorch wheel index and model downloads"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "download-r2.pytorch.org",
+    "action": "DIRECT",
+    "source": "PyTorch wheel files"
+  },
+  {
+    "type": "DOMAIN-SUFFIX",
+    "value": "download.nvidia.com",
+    "action": "DIRECT",
+    "source": "NVIDIA CUDA/cuDNN/driver downloads"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "pypi.nvidia.com",
+    "action": "DIRECT",
+    "source": "NVIDIA Python package index"
+  },
+  {
+    "type": "DOMAIN",
+    "value": "pypi.ngc.nvidia.com",
+    "action": "DIRECT",
+    "source": "NVIDIA legacy Python index"
+  }
+]

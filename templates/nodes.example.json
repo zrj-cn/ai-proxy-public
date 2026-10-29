@@ -1,0 +1,19 @@
+{
+  "nodes": {
+    "entry-A": {
+      "type": "trojan",
+      "server": "entry.example.invalid",
+      "port": 443,
+      "password": "YOUR_ENTRY_PASSWORD",
+      "sni": "entry.example.invalid",
+      "skip-cert-verify": false
+    },
+    "exit-B": {
+      "type": "socks5",
+      "server": "exit.example.invalid",
+      "port": 1080,
+      "username": "YOUR_EXIT_USERNAME",
+      "password": "YOUR_EXIT_PASSWORD"
+    }
+  }
+}

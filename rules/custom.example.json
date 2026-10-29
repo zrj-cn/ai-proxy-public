@@ -1,0 +1,4 @@
+[
+ {"type":"DOMAIN","value":"downloads.example.org","action":"DIRECT","source":"custom example, not loaded"},
+ {"type":"DOMAIN-SUFFIX","value":"new-ai.example","action":"CHAIN","source":"custom example, not loaded"}
+]

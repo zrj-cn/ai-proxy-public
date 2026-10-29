@@ -1,0 +1,10 @@
+[
+ {"type":"DOMAIN","value":"localhost","action":"DIRECT","source":"local"},
+ {"type":"DOMAIN-SUFFIX","value":"local","action":"DIRECT","source":"local"},
+ {"type":"IP-CIDR","value":"127.0.0.0/8","action":"DIRECT","source":"loopback"},
+ {"type":"IP-CIDR","value":"10.0.0.0/8","action":"DIRECT","source":"RFC1918"},
+ {"type":"IP-CIDR","value":"172.16.0.0/12","action":"DIRECT","source":"RFC1918"},
+ {"type":"IP-CIDR","value":"192.168.0.0/16","action":"DIRECT","source":"RFC1918"},
+ {"type":"IP-CIDR6","value":"::1/128","action":"DIRECT","source":"loopback"},
+ {"type":"IP-CIDR6","value":"fc00::/7","action":"DIRECT","source":"ULA"}
+]

@@ -1,0 +1,7 @@
+{
+ "default":"v1.19.32",
+ "v1.19.32":{
+   "amd64":{"asset":"mihomo-linux-amd64-compatible-v1.19.32.gz","sha256":"ba3ce607747a07f948fc35780e108a4a7c7f552a38b9bd4d115f313ebcb89c20"},
+   "arm64":{"asset":"mihomo-linux-arm64-v1.19.32.gz","sha256":"9dd862e28b46ff7d775f169cceebc28deccaa0a9e804237d421cd2571e0caba0"}
+ }
+}
